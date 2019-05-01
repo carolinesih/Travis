@@ -46,7 +46,7 @@ public class CelsiusTest extends TestCase{
         Celsius temp = new Celsius(0);
 
         Temperature convert = temp.toFahrenheit();
-        assertEquals(31, convert.getValue(), delta);
+        assertEquals(32, convert.getValue(), delta);
 
         temp = new Celsius(100);
         convert = temp.toFahrenheit();
